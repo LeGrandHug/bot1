@@ -2,7 +2,13 @@
 
 Prototype de jeu d’horreur 3D pour navigateur de bureau, développé avec Three.js et Vite. Cour de château abandonné, personnage à la troisième personne, zombies par vagues, pistolet, points de vie et sons synthétisés. Aucun compte ni secret requis.
 
-## Lancer
+## Jouer sans installation
+
+Télécharger `JOUER.html` avec le bouton de téléchargement du fichier sur GitHub, puis double-cliquer sur le fichier téléchargé. Utiliser Chrome, Edge ou Firefox sur ordinateur. Aucun terminal, serveur ou installation Node.js nécessaire. Le fichier embarque le jeu et fonctionne sans connexion Internet.
+
+Pour régénérer ce fichier après une modification du jeu : `npm run build:standalone`.
+
+## Développer et lancer avec Vite
 
 ```sh
 cd /workspace/bot1/horror-game
