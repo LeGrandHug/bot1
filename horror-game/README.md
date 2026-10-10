@@ -40,3 +40,5 @@ Télécharger `PERSONNAGE.html` et l’ouvrir dans un navigateur pour examiner l
 Le modèle exporté est aussi disponible directement dans `models/survivant.glb`, importable dans Blender ou un moteur 3D. C’est un assemblage de maillages avec pivots nommés, sans squelette déformant ni animations enregistrées dans le GLB ; les animations de jeu sont pilotées par `src/character.js`. Aucun modèle tiers n’a été utilisé. La visionneuse et le jeu restent autonomes et ne nécessitent aucun serveur.
 
 Pour développer la visionneuse avec Vite : ouvrir `/personnage.html`. `npm run build:standalone` reconstruit les deux fichiers autonomes.
+
+![Aperçu du modèle procédural](models/apercu-survivant.png)
